@@ -38,3 +38,4 @@ app.route("/name")
     })
 
 module.exports = app;
+console.log("Hello World");
