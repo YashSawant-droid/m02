@@ -39,3 +39,4 @@ app.route("/name")
 
 module.exports = app;
 console.log("Hello World");
+app.get("/", (req, res) => res.send("Hello Express"));
